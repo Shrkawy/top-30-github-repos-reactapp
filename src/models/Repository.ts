@@ -1,8 +1,10 @@
 export interface Repository {
   name: string;
   description: string;
-  start: number;
+  stars: number;
   issues: number;
   username: string;
   avatar: string;
+  url: string;
+  createdAt: string;
 }

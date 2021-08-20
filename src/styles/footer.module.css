@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 2.5rem;
+  width: 100vw;
+  background-color: white;
+  border: 1.5px solid var(--hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer a {
+  all: unset;
+  cursor: pointer;
+}
+
+.footer a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}

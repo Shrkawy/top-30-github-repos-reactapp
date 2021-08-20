@@ -1,0 +1,6 @@
+.container {
+  padding: 1rem;
+  max-width: calc(100vw - 1rem);
+  position: relative;
+  overflow-x: hidden;
+}
